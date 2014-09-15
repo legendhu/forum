@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>forum</display-name>
+  <servlet>
+    <servlet-name>ArticleServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArticleDetailServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ArticleDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReplyDealServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ReplyDealServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.PostServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArticleFlatServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ArticleFlatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ArticleDetailFlatServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ArticleDetailFlatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeInfoServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ChangeInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ChangePassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewHeadServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.ViewHeadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.UpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.xxcyjd.servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>ArticleServlet</servlet-name>
+    <url-pattern>/servlet/ArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleDetailServlet</servlet-name>
+    <url-pattern>/servlet/ArticleDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyDealServlet</servlet-name>
+    <url-pattern>/servlet/ReplyDealServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/servlet/PostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleFlatServlet</servlet-name>
+    <url-pattern>/servlet/ArticleFlatServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleDetailFlatServlet</servlet-name>
+    <url-pattern>/servlet/ArticleDetailFlatServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeInfoServlet</servlet-name>
+    <url-pattern>/servlet/ChangeInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePassServlet</servlet-name>
+    <url-pattern>/servlet/ChangePassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewHeadServlet</servlet-name>
+    <url-pattern>/servlet/ViewHeadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <url-pattern>/servlet/UpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/servlet/AdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
